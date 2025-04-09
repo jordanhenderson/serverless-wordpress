@@ -35,11 +35,9 @@ Terraform will:
 ---
 
 ## ⚙️ Requirements
-- AWS CLI configured
 - Terraform >= 1.3
-- Composer installed (for managing PHP dependencies)
+- Composer installed (for downloading bref dependencies)
 - S3 bucket created and accessible
-- PHP binary compatible with AWS Lambda runtime (preferably static)
 
 ---
 
