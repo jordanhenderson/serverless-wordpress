@@ -29,7 +29,7 @@ terraform apply -var-file=main.tfvars
 Terraform will:
 - Upload the built ZIP to S3 (if using `local_zip_path`)
 - Create an IAM role
-- Deploy a Lambda function using `provided.al2023`
+- Deploy a Lambda function using `provided.al2` (Bref currently requires al2)
 - (Optionally) configure a Function URL and VPC networking
 
 ---
